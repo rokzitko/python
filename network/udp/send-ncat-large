@@ -1,0 +1,4 @@
+#!/bin/sh
+dd if=/dev/zero bs=1M count=1k | ncat --udp --send-only localhost 8080
+
+
